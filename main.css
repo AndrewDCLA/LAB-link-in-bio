@@ -1,3 +1,19 @@
 body {
-  background-color: black;
+  background-size: contain; 
+  background-repeat: no-repeat;
+  background: rgb(3,4,94);
+  background: linear-gradient(90deg, rgba(3,4,94,1) 2%, rgba(14,99,144,1) 63%, rgba(18,143,167,1) 94%); 
+}
+
+#name {
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+
+
+#phonenumber {
+  display: flex;
+  justify-content: center;
+  color: white;
 }
